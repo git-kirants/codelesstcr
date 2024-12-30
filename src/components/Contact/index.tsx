@@ -12,7 +12,7 @@ const Contact = () => {
                 Email Us
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-                We'll get back to you as soon as possible.
+                We&apos;ll get back to you as soon as possible.
               </p>
               <form action="https://formsubmit.co/tcr" method="POST">
                 <div className="-mx-4 flex flex-wrap">
