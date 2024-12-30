@@ -5,9 +5,10 @@ import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import { Metadata } from "next";
 import Footer from "@/components/Footer";
+import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "CodelessTCR",
+  description: "Codel",
   // other metadata
 };
 
@@ -24,6 +25,7 @@ export default function Home() {
         <Hero />
         <Features />
         <AboutSectionOne />
+        <AboutSectionTwo />
         <Contact />
         <Footer />
       </div>
