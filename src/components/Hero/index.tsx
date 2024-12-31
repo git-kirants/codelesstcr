@@ -52,7 +52,7 @@ const HeroSection = () => {
             href="https://docs.google.com/forms/d/e/1FAIpQLSdc0yu_nJD2ExKYHAR8gE5dWE2fNZRjYt5zIzIxRdGSLmAB9g/viewform"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-3 bg-blue-600 text-white rounded-lg text-lg font-medium hover:bg-blue-700 transform hover:-translate-y-1 transition-all duration-300"
+            className="px-8 py-3 bg-blue-600 text-white rounded-full text-lg font-medium hover:bg-blue-700 transform hover:-translate-y-1 transition-all duration-300"
           >
             Register Now
           </a>
@@ -60,7 +60,7 @@ const HeroSection = () => {
             onClick={() => {
               document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
             }}
-            className="px-8 py-3 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white rounded-lg text-lg font-medium hover:shadow-md transform hover:-translate-y-1 transition-all duration-300"
+            className="px-8 py-3 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white rounded-full text-lg font-medium hover:shadow-md transform hover:-translate-y-1 transition-all duration-300"
           >
             Learn More
           </button>
